@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo QA" parallel="tests" thread-count="2"> 
+  <test name="DemoQA"> 
+    <parameter name="browserType" value="chrome"/> 
+<!-- <packages>
+<package name="com.testsuite.demoqa"></package>
+</packages>-->
+<classes>
+<class name="com.testsuite.demoqa.VerifyElementst"/>
+</classes>
+  </test> 
+</suite>

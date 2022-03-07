@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.testsuite.demoqa.VerifyElementst">
+        <methods>
+          <include name="tc_001_VerifyControlElementsPage"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+          <include name="tc_002_VerifyElementsMenus"/>
+          <include name="beforeTest"/>
+          <include name="tc_003_VerifyTextBox"/>
+          <include name="reportsetup"/>
+          <include name="setBrowserAndDriver"/>
+          <include name="onFinish"/>
+        </methods>
+      </class> <!-- com.testsuite.demoqa.VerifyElementst -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

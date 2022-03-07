@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Demo QA]" parallel="tests">
+  <test thread-count="2" name="DemoQA(failed)" parallel="tests">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.testsuite.demoqa.VerifyElementst">
+        <methods>
+          <include name="tc_001_VerifyControlElementsPage"/>
+          <include name="getResult"/>
+          <include name="closeBrowser"/>
+          <include name="tc_002_VerifyElementsMenus"/>
+          <include name="beforeTest"/>
+          <include name="reportsetup"/>
+          <include name="setBrowserAndDriver"/>
+          <include name="onFinish"/>
+        </methods>
+      </class> <!-- com.testsuite.demoqa.VerifyElementst -->
+    </classes>
+  </test> <!-- DemoQA(failed) -->
+</suite> <!-- Failed suite [Demo QA] -->
